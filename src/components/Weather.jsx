@@ -11,7 +11,7 @@ export const Weather = () => {
         setLoading(true)
 
         try {
-            const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${param}&appid=071083bd0a97bfb3626f171c6e007d8f`)
+            const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${param}&appid=xyz`)
             
             const data = await response.json();
             console.log(data);
